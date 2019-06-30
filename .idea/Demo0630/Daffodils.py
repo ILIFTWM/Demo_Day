@@ -33,7 +33,7 @@ for i in range(1,10000):
 '''Fibonacci数列为：0、1、1、2、3、5、8、13、21......
 数列第一项为0，第二项为1，从第三项开始，每一项为相邻前两项之和
 '''
-def fib(n):
+def fib(n): #嵌套函数
     if n <= 1:
         return n
     return fib(n-1)+fib(n-2)
