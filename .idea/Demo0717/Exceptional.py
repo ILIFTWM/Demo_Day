@@ -5,6 +5,8 @@
 # @File    : Exceptional.py
 '''异常处理 - 异常机制的重要性 / try-except代码块 / else代码块 / finally代码块 / 内置异常类型 / 异常栈 / raise语句
 '''
+#异常栈：当代码运行错误的时候，python解释器会自动打印错误的堆栈，但是程序也会戛然而止。我们可以选择把错误堆栈打印出来，
+# 同时程序继续执行下去怎么操作呢？python内置的logging模块可以非常清楚的记录错误信息
 #
 # try:
 #    print(aa)
